@@ -1,11 +1,15 @@
 from fastapi import FastAPI, HTTPException
 import google.generativeai as genai
 import chromadb
+import os
+
+load_dotenv()
 
 app = FastAPI()
 
 # ✅ Configure Google API Key
-genai.configure(api_key="AIzaSyCC6EtXOk_ir4sPxVVDNuAE5Y27oNLmd1A")  # Replace with actual key
+api_key = os.getenv("GOOGLE_API_KEY")
+genai.configure(api_key=api_key) # Replace with actual key
 
 # ✅ Connect to ChromaDB (Vector DB)
 try:
