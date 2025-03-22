@@ -1,9 +1,13 @@
 import json
 import google.generativeai as genai
+from dotenv import load_dotenv
 import chromadb
+import os
 
+load_dotenv()
 # Configure Google API Key
-genai.configure(api_key="AIzaSyCC6EtXOk_ir4sPxVVDNuAE5Y27oNLmd1A")  # Replace with your actual API key
+api_key = os.getenv("GOOGLE_API_KEY")
+genai.configure(api_key=api_key)  # Replace with actual key
 
 # Load recipes from JSON file
 with open("recipes.json", "r") as f:
