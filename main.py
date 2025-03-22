@@ -2,7 +2,7 @@ from fastapi import FastAPI, HTTPException
 import google.generativeai as genai
 import chromadb
 import os
-
+from dotenv import load_dotenv
 load_dotenv()
 
 app = FastAPI()
