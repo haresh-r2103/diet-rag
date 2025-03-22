@@ -1,0 +1,13 @@
+prefix=D:/Diet(Rag)/venv/Library
+exec_prefix=D:/Diet(Rag)/venv/Library
+libdir=D:/Diet(Rag)/venv/Library/lib
+sharedlibdir=D:/Diet(Rag)/venv/Library/lib
+includedir=D:/Diet(Rag)/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

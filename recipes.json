@@ -1,0 +1,80 @@
+[
+    {
+        "recipe_name": "Egg & Spinach Scramble",
+        "ingredients": ["3 Eggs", "1 cup Spinach", "1 tbsp Olive Oil", "Salt", "Black Pepper"],
+        "instructions": [
+            "Heat olive oil in a pan.",
+            "Add spinach and cook for 1 minute.",
+            "Whisk eggs, season with salt & pepper, and add to the pan.",
+            "Scramble until fully cooked."
+        ],
+        "nutrient_content": {"calories": 280, "protein": "24g", "carbs": "3g", "fat": "18g"}
+    },
+    {
+        "recipe_name": "Protein-Packed Tuna Salad",
+        "ingredients": ["1 can Tuna", "½ Avocado", "1 tbsp Greek Yogurt", "½ tsp Mustard", "½ cup Lettuce"],
+        "instructions": [
+            "Mash avocado and mix with Greek yogurt and mustard.",
+            "Add tuna and mix well.",
+            "Serve over lettuce."
+        ],
+        "nutrient_content": {"calories": 320, "protein": "42g", "carbs": "8g", "fat": "12g"}
+    },
+    {
+        "recipe_name": "Cottage Cheese & Berries Bowl",
+        "ingredients": ["1 cup Cottage Cheese", "½ cup Blueberries", "½ cup Strawberries", "1 tbsp Almonds"],
+        "instructions": ["Mix all ingredients in a bowl.", "Enjoy fresh or chill before eating."],
+        "nutrient_content": {"calories": 260, "protein": "30g", "carbs": "18g", "fat": "8g"}
+    },
+    {
+        "recipe_name": "Quinoa & Black Bean Bowl",
+        "ingredients": ["½ cup Cooked Quinoa", "½ cup Black Beans", "¼ cup Corn", "½ Tomato", "1 tbsp Olive Oil"],
+        "instructions": ["Mix all ingredients in a bowl.", "Drizzle olive oil and toss well."],
+        "nutrient_content": {"calories": 320, "protein": "16g", "carbs": "45g", "fat": "8g"}
+    },
+    {
+        "recipe_name": "High-Protein Peanut Butter Shake",
+        "ingredients": ["1 cup Almond Milk", "1 Banana", "1 tbsp Peanut Butter", "1 scoop Protein Powder"],
+        "instructions": ["Blend all ingredients until smooth."],
+        "nutrient_content": {"calories": 400, "protein": "35g", "carbs": "40g", "fat": "12g"}
+    },
+    {
+        "recipe_name": "Chicken & Broccoli Stir-Fry",
+        "ingredients": ["1 Chicken Breast", "1 cup Broccoli", "1 tbsp Soy Sauce", "1 tbsp Olive Oil", "½ tsp Garlic Powder"],
+        "instructions": [
+            "Heat olive oil in a pan and cook chicken for 5-6 min per side.",
+            "Add broccoli and garlic powder, sauté for 3 min.",
+            "Drizzle soy sauce and toss well."
+        ],
+        "nutrient_content": {"calories": 320, "protein": "45g", "carbs": "6g", "fat": "10g"}
+    },
+    {
+        "recipe_name": "Turkey & Avocado Wrap",
+        "ingredients": ["1 Whole Wheat Tortilla", "3 oz Turkey Slices", "½ Avocado", "1 tbsp Greek Yogurt"],
+        "instructions": [
+            "Spread Greek yogurt and mashed avocado on tortilla.",
+            "Add turkey slices, roll, and enjoy."
+        ],
+        "nutrient_content": {"calories": 350, "protein": "38g", "carbs": "22g", "fat": "12g"}
+    },
+    {
+        "recipe_name": "Lentil & Tofu Protein Bowl",
+        "ingredients": ["½ cup Cooked Lentils", "½ cup Cubed Tofu", "1 tbsp Olive Oil", "1 tbsp Lemon Juice"],
+        "instructions": [
+            "Mix lentils, tofu, olive oil, and lemon juice.",
+            "Enjoy fresh or lightly sauté for 2 minutes."
+        ],
+        "nutrient_content": {"calories": 300, "protein": "32g", "carbs": "28g", "fat": "8g"}
+    },
+    {
+        "recipe_name": "Baked Salmon & Asparagus",
+        "ingredients": ["1 Salmon Fillet", "1 cup Asparagus", "1 tbsp Lemon Juice", "1 tbsp Olive Oil"],
+        "instructions": ["Bake salmon at 375°F for 15 minutes.", "Serve with steamed asparagus.", "Drizzle with lemon juice."]
+    },
+    {
+        "recipe_name": "Greek Yogurt & Chia Seeds Bowl",
+        "ingredients": ["1 cup Greek Yogurt", "1 tbsp Chia Seeds", "½ tbsp Honey", "¼ cup Walnuts"],
+        "instructions": ["Mix all ingredients in a bowl.", "Let sit for 10 minutes for chia seeds to absorb moisture."],
+        "nutrient_content": {"calories": 300, "protein": "28g", "carbs": "20g", "fat": "12g"}
+    }
+]

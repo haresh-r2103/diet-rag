@@ -1,0 +1,12 @@
+chromadb
+fastapi
+uvicorn
+mysql-connector-python
+sqlalchemy
+sentence-transformers
+pdfplumber
+pymupdf
+google-generativeai
+google-cloud-storage
+AIzaSyCC6EtXOk_ir4sPxVVDNuAE5Y27oNLmd1A
+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
