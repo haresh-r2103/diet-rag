@@ -1,16 +1,39 @@
+from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
 import google.generativeai as genai
 import chromadb
 import os
-from dotenv import load_dotenv
+
 load_dotenv()
 
 app = FastAPI()
 
 # ✅ Configure Google API Key
 api_key = os.getenv("GOOGLE_API_KEY")
-genai.configure(api_key=api_key) # Replace with actual key
+genai.configure(api_key=api_key)
 
+from fastapi import FastAPI, HTTPException, Request
+import mysql.connector
+import os
+
+app = FastAPI()
+
+@app.post("/store_user/")
+async def store_user(request: Request, db: mysql.connector.connection.MySQLConnection = Depends(get_db)):
+    data = await request.json()
+    
+    try:
+        cursor = db.cursor()
+        cursor.execute("""
+            INSERT INTO users (name, age, weight, height, goal, diet_preference)
+            VALUES (%s, %s, %s, %s, %s, %s)
+        """, (data['name'], data['age'], data['weight'], data['height'], data['goal'], data['diet_preference']))
+
+        db.commit()
+        cursor.close()
+        return {"message": "User information stored successfully!"}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 # ✅ Connect to ChromaDB (Vector DB)
 try:
     chroma_client = chromadb.PersistentClient(path="./chroma_db")
